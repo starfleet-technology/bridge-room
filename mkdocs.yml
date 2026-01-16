@@ -1,0 +1,47 @@
+site_name: Bridge Simulator
+sites_description: Build a Star Trek bridge using existing hardware
+nav:
+  - Home: index.md
+  - Tutorials:
+    - Overview: tutorials/index.md
+    - Your First Bridge: tutorials/your-first-bridge.md
+    - Using Tablets: tutorials/using-tablets.md
+    - Adding Effects: tutorials/adding-effects.md
+  - How-to Guides:
+    - Overview: how-to/index.md
+    - Setup Game Server: how-to/setup-game-server.md
+    - Connect Devices: how-to/connect-devices.md
+    - Troubleshooting: how-to/troubleshoot.md
+    - Customize Interfaces: how-to/customize-interface.md
+  - Explanation:
+    - Overview: explanation/index.md
+    - System Architecture: explanation/architecture.md
+    - Device Compatibility: explanation/device-compatibility.md
+    - Networking: explanation/networking.md
+    - Design Principles: explanation/design-principles.md
+  - Reference:
+    - Overview: reference/index.md
+    - Hardware Specs: reference/hardware-specs.md
+    - Device Compatibility Matrix: reference/device-compatibility.md
+    - Software API: reference/software-api.md
+    - FAQ: reference/faq.md
+theme:
+  name: material
+  font: 
+    text: Antonio
+  palette:
+    scheme: slate
+    primary: orange
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+repo_url: https://github.com/starfleet-technology/bridge-room
+repo_name: starfleet-technology/bridge-room
